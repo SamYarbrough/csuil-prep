@@ -5,10 +5,14 @@ import java.io.File;
 public class GenericScanner {
     public static void main(String[] args) {
         try {
-            File file = new File("PracticeA.txt");
+            File file = new File("filename.dat");
             Scanner fin = new Scanner(file);
             
             // code
+
+            
+
+            // end of code
             
             fin.close();
         } catch (FileNotFoundException e) {
